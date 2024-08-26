@@ -1,8 +1,4 @@
 import React from "react";
-import AllBlogs from "../pages/AllBlogs";
-import SingleBlog from "../pages/SingleBlog";
-import CreateBlog from "../pages/CreateBlog";
-import EditBlog from "../pages/EditBlog";
 
 const Navbar = () => {
   return (
@@ -10,7 +6,7 @@ const Navbar = () => {
       <div className="flex flex-wrap justify-between items-center mx-auto">
         <a href="/" className="flex items-center">
           <span className="self-center text-xl font-semibold whitespace-nowrap">
-            Your Logo
+            Karuna
           </span>
         </a>
         <div className="flex items-center lg:order-2">
@@ -34,7 +30,7 @@ const Navbar = () => {
               href="/"
               className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700"
             >
-              <AllBlogs></AllBlogs>
+              All Blogs
             </a>
           </li>
           <li>
@@ -42,7 +38,7 @@ const Navbar = () => {
               href="/single-blog"
               className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700"
             >
-              <SingleBlog></SingleBlog>
+              Single Blog
             </a>
           </li>
           <li>
@@ -50,7 +46,7 @@ const Navbar = () => {
               href="/create-blog"
               className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700"
             >
-              <CreateBlog></CreateBlog>
+              Create Blog
             </a>
           </li>
           <li>
@@ -58,7 +54,7 @@ const Navbar = () => {
               href="/edit-blog"
               className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700"
             >
-              <EditBlog></EditBlog>
+              Edit Blog
             </a>
           </li>
         </ul>
